@@ -10,4 +10,9 @@
     <string name="str_cadastrar">Deseja criar uma conta? Clique aqui</string>
     <string name="str_boasVindas">Bem Vindo(a)</string>
     <string name="str_sair">Deslogar</string>
+    <string name="str_escolhaViajar">Vamos viajar ?</string>
+    <string name="str_plano">Avião</string>
+    <string name="str_train">Trem</string>
+    <string name="str_carro">Carro</string>
+
 </resources>

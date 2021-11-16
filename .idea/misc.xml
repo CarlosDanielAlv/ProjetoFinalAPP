@@ -8,17 +8,24 @@
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/background_btn_deslogar.xml" value="0.5703125" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/background_user.xml" value="0.5703125" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/button.xml" value="0.346875" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_com_sombra.xml" value="0.4005208333333333" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_components.xml" value="0.346875" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_full_user.xml" value="0.5703125" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_full_white.xml" value="0.5703125" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_omponents.xml" value="0.40572916666666664" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_user.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/edit_text.xml" value="0.40572916666666664" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/ic_car.xml" value="0.4005208333333333" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/ic_email.xml" value="0.346875" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/ic_eye.xml" value="0.346875" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/ic_person.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/ic_plain.xml" value="0.4005208333333333" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/ic_plane.xml" value="0.5703125" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/ic_train.xml" value="0.4005208333333333" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/layout_shadow_white.xml" value="0.5703125" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_form_cadastro.xml" value="0.32864583333333336" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_form_login.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_tela_escolha.xml" value="0.33" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_tela_perfil.xml" value="0.32864583333333336" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.34479166666666666" />
       </map>
