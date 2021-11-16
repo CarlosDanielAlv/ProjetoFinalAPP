@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">TrabalhoFinal</string>
+    <string name="app_name">VOA</string>
+    <string name="str_singIn">Entrar</string>
+    <string name="str_singUp">Registrar-se</string>
+    <string name="str_nome">Nome</string>
+    <string name="str_email">Email</string>
+    <string name="str_senha">Senha</string>
+    <string name="str_entrar">Entrar</string>
+    <string name="str_confirmar">Confirmar</string>
+    <string name="str_cadastrar">Deseja criar uma conta? Clique aqui</string>
+    <string name="str_boasVindas">Bem Vindo(a)</string>
+    <string name="str_sair">Deslogar</string>
 </resources>
