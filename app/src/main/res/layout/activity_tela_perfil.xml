@@ -1,108 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    tools:context=".TelaPerfil">
+    android:fillViewport="true">
 
-
-
-    <View
-        android:id="@+id/containerUser"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:background="@drawable/container_user"
-
-        android:layout_marginTop="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/ic_person"
-        app:layout_constraintStart_toStartOf="@+id/containerUser"
-        app:layout_constraintEnd_toEndOf="@+id/containerUser"
-        app:layout_constraintTop_toTopOf="@+id/containerUser"
-        app:layout_constraintBottom_toBottomOf="@+id/containerUser"
-        />
-
-    <TextView
-        style="@style/titulo2"
-        android:id="@+id/txtBoasVindas"
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/str_boasVindas"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".TelaPerfil">
 
-        app:layout_constraintTop_toBottomOf="@+id/containerUser"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/txtNomeUser"
-        />
+        <View
+            android:id="@+id/containerUser"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
 
-    <TextView
-        android:id="@+id/txtNomeUser"
-        style="@style/titulo1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="@string/str_boasVindas"
+            android:background="@drawable/container_user"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        app:layout_constraintBottom_toTopOf="@+id/containerInfo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtBoasVindas" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_person"
+            app:layout_constraintBottom_toBottomOf="@+id/containerUser"
+            app:layout_constraintEnd_toEndOf="@+id/containerUser"
+            app:layout_constraintStart_toStartOf="@+id/containerUser"
+            app:layout_constraintTop_toTopOf="@+id/containerUser" />
 
-    <View
-        android:id="@+id/containerInfo"
-        android:layout_width="match_parent"
-        android:layout_height="460dp"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/container_full_white"
+        <TextView
+            android:id="@+id/txtBoasVindas"
+            style="@style/titulo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_boasVindas"
 
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtBoasVindas"
-        app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintBottom_toTopOf="@+id/txtNomeUser"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/containerUser" />
 
-    <ImageView
-        android:id="@+id/iconeEmail"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/ic_email"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
+        <TextView
+            android:id="@+id/txtNomeUser"
+            style="@style/titulo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/str_boasVindas"
 
-        app:layout_constraintTop_toTopOf="@+id/containerInfo"
-        app:layout_constraintStart_toStartOf="@+id/containerInfo"
-        />
+            app:layout_constraintBottom_toTopOf="@+id/containerInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtBoasVindas" />
 
-    <TextView
-        android:id="@+id/textEmailUsuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
-        android:text="carlos.dan_@Outlook.com"
-        android:textColor="@color/Abbey"
-        android:textSize="20sp"
+        <View
+            android:id="@+id/containerInfo"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/container_full_white"
 
-        app:layout_constraintStart_toEndOf="@+id/iconeEmail"
-        app:layout_constraintTop_toTopOf="@+id/containerInfo" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtBoasVindas"
+            app:layout_constraintVertical_bias="1.0" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bt_deslogar"
-        style="@style/ButtonLogout"
-        android:text="@string/str_sair"
-        android:layout_marginTop="100dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textEmailUsuario" />
+        <ImageView
+            android:id="@+id/iconeEmail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_email"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            app:layout_constraintStart_toStartOf="@+id/containerInfo"
+            app:layout_constraintTop_toTopOf="@+id/containerInfo" />
+
+        <TextView
+            android:id="@+id/textEmailUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:text="carlos.dan_@Outlook.com"
+            android:textColor="@color/Abbey"
+            android:textSize="20sp"
+
+            app:layout_constraintStart_toEndOf="@+id/iconeEmail"
+            app:layout_constraintTop_toTopOf="@+id/containerInfo" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_deslogar"
+            style="@style/ButtonLogout"
+            android:layout_marginTop="100dp"
+            android:text="@string/str_sair"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textEmailUsuario" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

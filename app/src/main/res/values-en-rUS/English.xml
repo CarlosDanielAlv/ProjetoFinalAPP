@@ -11,4 +11,8 @@
     <string name="str_cadastrar">Do you want to create an account? Click here</string>
     <string name="str_boasVindas">Welcome</string>
     <string name="str_sair">Log Out</string>
+    <string name="str_escolhaViajar">Lets travel?</string>
+    <string name="str_plano">Avião</string>
+    <string name="str_train">Trem</string>
+    <string name="str_carro">Carro</string>
 </resources>
