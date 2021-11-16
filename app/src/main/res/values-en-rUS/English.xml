@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VOA</string>
+    <string name="str_singIn">Sing In</string>
+    <string name="str_singUp">Sing Up</string>
+    <string name="str_nome">Name</string>
+    <string name="str_email">Email</string>
+    <string name="str_senha">Password</string>
+    <string name="str_entrar">Entrar</string>
+    <string name="str_confirmar">Confirmar</string>
+    <string name="str_cadastrar">Do you want to create an account? Click here</string>
+    <string name="str_boasVindas">Welcome</string>
+    <string name="str_sair">Log Out</string>
+</resources>
