@@ -75,7 +75,7 @@
             app:layout_constraintTop_toBottomOf="@+id/edit_email" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/bt_entrar"
+            android:id="@+id/bt_confirmar"
             style="@style/Button"
             android:text="@string/str_confirmar"
             app:layout_constraintEnd_toEndOf="parent"
@@ -89,7 +89,7 @@
             android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bt_entrar" />
+            app:layout_constraintTop_toBottomOf="@+id/bt_confirmar" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
