@@ -14,5 +14,9 @@
     <string name="str_plano">Avião</string>
     <string name="str_train">Trem</string>
     <string name="str_carro">Carro</string>
-
+    <string name="str_home">Inicio</string>
+    <string name="str_viagens">Viagens</string>
+    <string name="str_perfil">Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

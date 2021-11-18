@@ -7,8 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Custom Color -->
     <color name="DodgerBlue">#30adfd</color>
     <color name="BrightTurquoise">#28cffc</color>
     <color name="Abbey">#45474d</color>
     <color name="Sombra">#f0f0f2</color>
+    <color name="ligth_white">#D2D2D2</color>
+    <color name="card_1">#A3E4D7</color>
 </resources>
