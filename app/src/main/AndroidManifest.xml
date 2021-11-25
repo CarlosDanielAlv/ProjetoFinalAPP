@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrabalhoFinal">
         <activity
+            android:name=".brasilCidade"
+            android:exported="false" />
+        <activity
+            android:name=".listViewBrasil"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".FormLogin"
             android:exported="false" />
         <activity
@@ -22,7 +31,7 @@
             android:name=".TelaEscolha"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".listView1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
