@@ -9,6 +9,7 @@
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/background_user.xml" value="0.5703125" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/button.xml" value="0.346875" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_com_sombra.xml" value="0.4005208333333333" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_com_sombra_azul.xml" value="0.359375" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_components.xml" value="0.346875" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_full_user.xml" value="0.5703125" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/container_full_white.xml" value="0.5703125" />
@@ -25,15 +26,20 @@
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/item_selector.xml" value="0.5703125" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/layout_shadow_white.xml" value="0.5703125" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/round_corner.xml" value="0.5703125" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_brasil.xml" value="0.33" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_brasil_cidade.xml" value="0.33" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_form_cadastro.xml" value="0.32864583333333336" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_form_login.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_list_view1.xml" value="0.26469098277608916" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_tela_escolha.xml" value="0.5" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/activity_tela_perfil.xml" value="0.32864583333333336" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/cidade_item.xml" value="0.33" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/fragment_home.xml" value="0.5" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/fragment_home_fragment.xml" value="0.384375" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/fragment_local_fragment.xml" value="0.384375" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/fragment_perfil_fragment.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/layout/paises_item.xml" value="0.27152988855116517" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/menu/item_menu.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.34479166666666666" />
       </map>

@@ -18,5 +18,8 @@
     <string name="str_home">Home</string>
     <string name="str_viagens">Trips</string>
     <string name="str_perfil">Profile</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_paises">Countries</string>
+    <string name="str_cidades">Citys</string>
+    <string name="str_moeda">Currency</string>
+    <string name="str_descricaoCidade">Description</string>
 </resources>
