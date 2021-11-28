@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.trabalhofinal">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -9,6 +11,12 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.TrabalhoFinal">
+        <activity
+            android:name=".botsawanaCidade"
+            android:exported="false" />
+        <activity
+            android:name=".TelaVideo"
+            android:exported="false" />
         <activity
             android:name=".brasilCidade"
             android:exported="false" />
@@ -20,7 +28,13 @@
             android:exported="false" />
         <activity
             android:name=".FormLogin"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".TelaPerfil"
             android:exported="false" />
@@ -32,13 +46,7 @@
             android:exported="false" />
         <activity
             android:name=".listView1"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>

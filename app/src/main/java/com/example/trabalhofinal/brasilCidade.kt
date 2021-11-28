@@ -2,9 +2,15 @@ package com.example.trabalhofinal
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.ImageView
 import android.widget.Switch
 import android.widget.TextView
+import com.android.volley.Request
+import com.android.volley.Response
+import com.android.volley.toolbox.StringRequest
+import com.android.volley.toolbox.Volley
+import com.google.gson.Gson
 
 class brasilCidade : AppCompatActivity() {
 
@@ -13,17 +19,35 @@ class brasilCidade : AppCompatActivity() {
     lateinit var textViewDescricaoCidade: TextView
     lateinit var textViewMoedaCidade: TextView
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_brasil_cidade)
 
-        // Escondendo barra de ação da tela
-        supportActionBar?.hide()
 
         imageView = findViewById(R.id.imgCidadeBrasil)
         textViewNomeCidadeBrasil = findViewById(R.id.txtNomeCidadeBrasil)
         textViewDescricaoCidade = findViewById(R.id.txtDescricaoCidade)
         textViewMoedaCidade = findViewById(R.id.txtMoedaCidade)
+
+        val queue = Volley.newRequestQueue(this)
+        // Passando o valor de CEP para a url da API
+        val url = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur/brl.json"
+        //Realizando a request com a minha url
+        val stringRequest = StringRequest(
+            Request.Method.GET, url,
+            Response.Listener<String> { response ->
+                var gson = Gson()
+                var moeda = gson.fromJson(response, FormataJson.Valores::class.java)
+                textViewMoedaCidade.text = "Valor da moeda do país em R$: ${moeda.brl}"
+            },
+            Response.ErrorListener { textViewMoedaCidade.text = "Moeda Indisponivel"})
+
+        queue.add(stringRequest)
+
+
+        // Escondendo barra de ação da tela
+        supportActionBar?.hide()
 
         val posicao: Int = intent.getIntExtra("posicao", -1)
 
@@ -37,7 +61,6 @@ class brasilCidade : AppCompatActivity() {
                         "ritmo de cidade de interior e dezenas de passeios para fazer, que incluem " +
                         "flutuação em rios cristalinos, caminhadas e banhos de cachoeira. Tudo é " +
                         "feito de forma bem organizada e de maneira a preservar o meio ambiente."
-            textViewMoedaCidade.text = "Definir moeda com API"
         }
         if (posicao == 1) {
             imageView.setBackgroundResource(R.drawable.img2)
@@ -49,7 +72,6 @@ class brasilCidade : AppCompatActivity() {
                         " você pode ir de carro para dezenas de cachoeiras incríveis, com os mais diversos" +
                         " cenários, fazer trilhas, voar de balão, além de observar a fauna e flora locais," +
                         " que são encatadoras!"
-            textViewMoedaCidade.text = "Definir moeda com API"
         }
         if (posicao == 2) {
             imageView.setBackgroundResource(R.drawable.img3)
@@ -61,7 +83,6 @@ class brasilCidade : AppCompatActivity() {
                         " e uma excelente estrutura para quem quer ficar bem hospedado, com diversas opções" +
                         " de pousadas charmosas. Muitas pessoas que vivem em Brasília procuram Piri quando" +
                         " querem relaxar e curtir novos ares."
-            textViewMoedaCidade.text = "Definir moeda com API"
         }
         if (posicao == 3) {
             imageView.setBackgroundResource(R.drawable.img4)
@@ -72,7 +93,6 @@ class brasilCidade : AppCompatActivity() {
                         "é o destino ideal para quem procura contato com a natureza e quer se desligar das " +
                         "grandes cidades, com direito a mergulhos em cachoeiras refrescantes, passeios por " +
                         "trilhas e um bom acarajé no fim da tarde!"
-            textViewMoedaCidade.text = "Definir moeda com API"
         }
 
     }

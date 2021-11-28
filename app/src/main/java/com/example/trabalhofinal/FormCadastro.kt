@@ -1,6 +1,11 @@
 package com.example.trabalhofinal
 
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.content.Context
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -13,6 +18,7 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
 class FormCadastro : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_form_cadastro)
@@ -23,15 +29,18 @@ class FormCadastro : AppCompatActivity() {
         // Botão Confirmar
         val buttonconfirma = findViewById<Button>(R.id.bt_confirmar)
         // Ação Botão Confirmar
+        val sharedPreference = SharedPreferences(this)
+        sharedPreference.save("nome",editText_nome.text.toString())
+
         buttonconfirma.setOnClickListener(){
 
             if(!editText_nome.text.isEmpty() && !editText_email.text.isEmpty() && !editText_senha.text.isEmpty()){
-                val objUser = Usuario(null,editText_nome.text.toString(),editText_email.text.toString(),editText_senha.text.toString())
+                val objUsuario = Usuario(null,editText_nome.text.toString(),editText_email.text.toString(),editText_senha.text.toString())
                 GlobalScope.launch(Dispatchers.IO){
-                    UsuarioDatabase.getInstance(this@FormCadastro).usuarioDAO().insert(objUser)
+                    UsuarioDatabase.getInstance(this@FormCadastro).usuarioDAO().insert(objUsuario)
                 }
                 Toast.makeText(applicationContext,"Cadastro realizado",Toast.LENGTH_LONG).show()
-                val intent = Intent(this, TelaPerfil::class.java)
+                val intent = Intent(this, TelaEscolha::class.java)
                 startActivity(intent)
             }else{
                 Toast.makeText(applicationContext,"Erro ao cadastrar",Toast.LENGTH_LONG).show()

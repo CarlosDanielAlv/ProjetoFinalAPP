@@ -30,11 +30,12 @@ class listView1 : AppCompatActivity() {
         val adapterPais = AdapterPais(this, arrayImgPaises)
         val listaPais = findViewById<ListView>(R.id.listView_paises)
         listaPais.adapter = adapterPais
-
+        val posicao:Int = intent.getIntExtra("position",-1)
         // Evento de click
         listaPais.setOnItemClickListener(){adapterView, view, position, id->
 
             Toast.makeText(this, position.toString(), Toast.LENGTH_SHORT).show()
+
             val intent = Intent(this, listViewBrasil::class.java)
             intent.putExtra("posicao", position)
             startActivity(intent)
