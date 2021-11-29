@@ -17,11 +17,13 @@
             android:layout_height="431dp" />
     </FrameLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/Button"
         android:id="@+id/btn_continua"
         android:layout_width="wrap_content"
         android:layout_height="62dp"
         android:layout_gravity="center"
+        android:background="@color/DodgerBlue"
         android:text="Continuar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

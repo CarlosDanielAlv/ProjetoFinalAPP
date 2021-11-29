@@ -35,9 +35,9 @@ class FormCadastro : AppCompatActivity() {
         buttonconfirma.setOnClickListener(){
 
             if(!editText_nome.text.isEmpty() && !editText_email.text.isEmpty() && !editText_senha.text.isEmpty()){
-                val objUsuario = Usuario(null,editText_nome.text.toString(),editText_email.text.toString(),editText_senha.text.toString())
+                val objUser = Usuario(null,editText_nome.text.toString(),editText_email.text.toString(),editText_senha.text.toString())
                 GlobalScope.launch(Dispatchers.IO){
-                    UsuarioDatabase.getInstance(this@FormCadastro).usuarioDAO().insert(objUsuario)
+                    UsuarioDatabase.getInstance(this@FormCadastro).usuarioDAO().insert(objUser)
                 }
                 Toast.makeText(applicationContext,"Cadastro realizado",Toast.LENGTH_LONG).show()
                 val intent = Intent(this, TelaVideo::class.java)

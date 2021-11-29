@@ -14,11 +14,10 @@ companion object {
     fun getInstance(context: Context):UsuarioDatabase{
 
         if(INSTANCE==null){
-            INSTANCE = Room.databaseBuilder(context.applicationContext,UsuarioDatabase::class.java,"usuarios.db").build()
+            INSTANCE = Room.databaseBuilder(context.applicationContext,UsuarioDatabase::class.java,"usuario.db").build()
         }
         return INSTANCE!!
     }
-
 }
 
 }

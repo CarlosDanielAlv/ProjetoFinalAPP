@@ -33,6 +33,8 @@ class TelaVideo : AppCompatActivity() {
         videoView.requestFocus()
         videoView.start()
 
+        supportActionBar?.hide()
+
         notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         val buttonconfirma = findViewById<Button>(R.id.btn_continua)
         // Ação Botão Confirmar

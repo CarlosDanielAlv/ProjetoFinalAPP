@@ -33,7 +33,7 @@ class botswanaCidade : AppCompatActivity() {
         button = findViewById(R.id.btnMaps)
 
         val queue = Volley.newRequestQueue(this)
-        // Passando o valor de CEP para a url da API
+        // Passando a url da API para buscar os valores de moeda
         val url = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/zar/brl.json"
         //Realizando a request com a minha url
         val stringRequest = StringRequest(
