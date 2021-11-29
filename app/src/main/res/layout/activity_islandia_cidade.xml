@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".brasilCidade">
+    tools:context=".islandiaCidade">
 
     <ImageView
-        android:id="@+id/imgCidadeBrasil"
+        android:id="@+id/imgCidadeIslandia"
         android:layout_width="match_parent"
         android:layout_height="270dp"
         android:background="@drawable/img1"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtNomeCidadeBrasil"
+        android:id="@+id/txtNomeCidadeIslandia"
         style="@style/h1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

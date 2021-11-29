@@ -12,7 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrabalhoFinal">
         <activity
-            android:name=".botsawanaCidade"
+            android:name=".listViewIslandia"
+            android:exported="false" />
+        <activity
+            android:name=".islandiaCidade"
+            android:exported="false" />
+        <activity
+            android:name=".listViewFilipinas"
+            android:exported="false" />
+        <activity
+            android:name=".filipinasCidade"
+            android:exported="false" />
+        <activity
+            android:name=".listViewChile"
+            android:exported="false" />
+        <activity
+            android:name=".chileCidade"
+            android:exported="false" />
+        <activity
+            android:name=".listViewBotsawana"
+            android:exported="false" />
+        <activity
+            android:name=".botswanaCidade"
             android:exported="false" />
         <activity
             android:name=".TelaVideo"

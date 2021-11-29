@@ -8,12 +8,12 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.example.trabalhofinal.R
 
-class AdapterCiadeBrasil(
+class AdapterCidadeFilipinas (
     val context: Activity,
-    private val nomeCidade: Array<String>,
-    private val ImgCidade: Array<Int>
+    private val nomeCidadeFilipinas: Array<String>,
+    private val ImgCidadeFilipinas: Array<Int>
 ) :
-    ArrayAdapter<String>(context, R.layout.cidade_item, nomeCidade) {
+    ArrayAdapter<String>(context, R.layout.cidade_item, nomeCidadeFilipinas) {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 
@@ -23,11 +23,10 @@ class AdapterCiadeBrasil(
         val imgCidade = view.findViewById<ImageView>(R.id.imagemCidade)
 
         // Setando atributos aos componentes
-        txtNomeCidade.text = nomeCidade[position]
-        imgCidade.setBackgroundResource(ImgCidade[position])
+        txtNomeCidade.text = nomeCidadeFilipinas[position]
+        imgCidade.setBackgroundResource(ImgCidadeFilipinas[position])
 
         return view
     }
 
 }
-

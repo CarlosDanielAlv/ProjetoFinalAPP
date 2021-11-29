@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".brasilCidade">
+    tools:context=".chileCidade">
 
     <ImageView
-        android:id="@+id/imgCidadeBrasil"
+        android:id="@+id/imgCidadeChile"
         android:layout_width="match_parent"
         android:layout_height="270dp"
         android:background="@drawable/img1"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtNomeCidadeBrasil"
+        android:id="@+id/txtNomeCidadeChile"
         style="@style/h1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -94,5 +94,4 @@
         app:layout_constraintVertical_bias="0.77" />
 
     <!--Acrescentar uma txt para intent explicita-->
-
 </androidx.constraintlayout.widget.ConstraintLayout>

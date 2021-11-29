@@ -8,7 +8,7 @@
     tools:context=".brasilCidade">
 
     <ImageView
-        android:id="@+id/imgCidadeBrasil"
+        android:id="@+id/imgCidadeBotsawana"
         android:layout_width="match_parent"
         android:layout_height="270dp"
         android:background="@drawable/img1"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtNomeCidadeBrasil"
+        android:id="@+id/txtNomeCidadeBotsawana"
         style="@style/h1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
