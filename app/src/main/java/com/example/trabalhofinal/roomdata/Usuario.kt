@@ -8,6 +8,6 @@ data class Usuario (
     @PrimaryKey(autoGenerate = true)
     val uid:Int?,
     val uname:String?,
-    val password:String?,
-    val email:String?
+    val email:String?,
+    val password:String?
 )

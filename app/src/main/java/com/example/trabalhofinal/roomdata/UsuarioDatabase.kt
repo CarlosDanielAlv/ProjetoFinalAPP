@@ -16,7 +16,7 @@ companion object {
 
         if(INSTANCE==null){
             INSTANCE = Room.databaseBuilder(context.applicationContext
-                ,UsuarioDatabase::class.java,"usuarios.db").build()
+                ,UsuarioDatabase::class.java,"Usuario.db").build()
         }
         return INSTANCE!!
     }

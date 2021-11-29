@@ -25,13 +25,13 @@
             android:name=".TelaPerfil"
             android:exported="false" />
         <activity
-            android:name=".FormCadastro"
+            android:name=".listView1"
             android:exported="false" />
         <activity
             android:name=".TelaEscolha"
             android:exported="false" />
         <activity
-            android:name=".listView1"
+            android:name=".FormCadastro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
