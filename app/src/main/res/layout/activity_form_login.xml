@@ -44,7 +44,7 @@
             app:layout_constraintTop_toBottomOf="@+id/txtRegistra" />
 
         <EditText
-            android:id="@+id/edit_email"
+            android:id="@+id/edit_emailLogin"
             style="@style/Edit_Text"
             android:layout_marginTop="40dp"
             android:autofillHints="emailAddress"
@@ -56,7 +56,7 @@
             app:layout_constraintTop_toTopOf="@+id/containerComponents" />
 
         <EditText
-            android:id="@+id/edit_senha"
+            android:id="@+id/edit_senhaLogin"
             style="@style/Edit_Text"
             android:autofillHints="password"
             android:drawableEnd="@drawable/ic_eye"
@@ -64,15 +64,15 @@
             android:inputType="textPassword"
             app:layout_constraintEnd_toEndOf="@+id/containerComponents"
             app:layout_constraintStart_toStartOf="@+id/containerComponents"
-            app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+            app:layout_constraintTop_toBottomOf="@+id/edit_emailLogin" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/bt_entrar"
+            android:id="@+id/bt_entrarLogin"
             style="@style/Button"
             android:text="@string/str_entrar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edit_senha" />
+            app:layout_constraintTop_toBottomOf="@+id/edit_senhaLogin" />
 
 
         <TextView
@@ -87,7 +87,7 @@
             app:layout_constraintEnd_toEndOf="@+id/containerComponents"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/containerComponents"
-            app:layout_constraintTop_toBottomOf="@+id/bt_entrar" />
+            app:layout_constraintTop_toBottomOf="@+id/bt_entrarLogin" />
 
         <ProgressBar
             android:layout_width="wrap_content"
