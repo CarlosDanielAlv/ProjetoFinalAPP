@@ -3,6 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/drawable/background_btn_deslogar.xml" value="0.24114583333333334" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_botsawana_cidade.xml" value="0.22083333333333333" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_botswana_cidade.xml" value="0.10104166666666667" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_brasil.xml" value="0.22083333333333333" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_brasil_cidade.xml" value="0.22083333333333333" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_chile_cidade.xml" value="0.1" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_filipinas_cidade.xml" value="0.22083333333333333" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_form_cadastro.xml" value="0.22083333333333333" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_form_login.xml" value="0.10104166666666667" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_islandia_cidade.xml" value="0.22083333333333333" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_list_view1.xml" value="0.22083333333333333" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_list_view_botsawana.xml" value="0.10104166666666667" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_list_view_chile.xml" value="0.10104166666666667" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_list_view_filipinas.xml" value="0.1" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_list_view_islandia.xml" value="0.1" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_main.xml" value="0.10104166666666667" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_tela_escolha.xml" value="0.10104166666666667" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_tela_perfil.xml" value="0.10104166666666667" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/activity_tela_video.xml" value="0.2" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/cidade_item.xml" value="0.22083333333333333" />
+        <entry key="..\:/Projeto 2/ProjetoFinalAPP/app/src/main/res/layout/paises_item.xml" value="0.22083333333333333" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/background.xml" value="0.40572916666666664" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/backgroundUser.xml" value="0.5703125" />
         <entry key="..\:/Users/Carlo/AndroidStudioProjects/TrabalhoFinal/app/src/main/res/drawable/background_btn_deslogar.xml" value="0.5703125" />
